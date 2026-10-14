@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор настроений - подбор фильма под ваше состояние | Vokino.net</title>
+    <meta name="description" content="Генератор настроений от Vokino.net - подберёт идеальный фильм под ваше текущее настроение. Грустно, весело, романтично - найдём подходящий вариант.">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #1a1a1a;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0 0 10px;
+            font-size: 2em;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            color: #e50914;
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #e50914;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #c40812;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #e50914;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .footer a {
+            color: #e50914;
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .mood-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .mood-item {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .other-tools {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .other-tools a {
+            color: #e50914;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+        .other-tools a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Все инструменты Vokino</a>
+    
+    <div class="header">
+        <h1>🎭 Генератор настроений</h1>
+        <p>Подберёт идеальный фильм под ваше состояние</p>
+    </div>
+
+    <div class="content">
+        <h2>О инструменте</h2>
+        <p><strong>Генератор настроений</strong> - это бесплатный инструмент от портала <a href="https://vokino.net/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=mood_generator">Vokino.net</a>, который подбирает фильм под ваше текущее эмоциональное состояние.</p>
+        
+        <p>Не знаете, что посмотреть? Скажите, какое у вас настроение, и мы найдём подходящий фильм!</p>
+
+        <h2>Доступные настроения</h2>
+        <div class="mood-list">
+            <div class="mood-item">😊 Весёлое</div>
+            <div class="mood-item">😢 Грустное</div>
+            <div class="mood-item">💕 Романтичное</div>
+            <div class="mood-item">😰 Тревожное</div>
+            <div class="mood-item">🤔 Философское</div>
+            <div class="mood-item">😴 Усталое</div>
+            <div class="mood-item">🔥 Энергичное</div>
+            <div class="mood-item">🎉 Праздничное</div>
+        </div>
+
+        <h2>Как это работает</h2>
+        <ul>
+            <li>Выберите своё текущее настроение из списка</li>
+            <li>Получите подборку фильмов, подходящих под это состояние</li>
+            <li>Каждый фильм с кратким описанием и рейтингом</li>
+            <li>Можете обновить подборку для новых вариантов</li>
+        </ul>
+
+        <h2>Примеры подборок</h2>
+        <ul>
+            <li>😢 <strong>Грустное настроение:</strong> "Зелёная миля", "Хатико", "Достучаться до небес"</li>
+            <li>😊 <strong>Весёлое настроение:</strong> "Мальчишник в Вегасе", "Один дома", "Маска"</li>
+            <li>💕 <strong>Романтичное:</strong> "Дневник памяти", "Ла-Ла Ленд", "Титаник"</li>
+            <li>🔥 <strong>Энергичное:</strong> "Безумный Макс", "Джон Уик", "Миссия невыполнима"</li>
+        </ul>
+
+        <h2>Для кого подходит</h2>
+        <ul>
+            <li><strong>Эмпатичным зрителям</strong> - кто выбирает кино под настроение</li>
+            <li><strong>Уставшим после работы</strong> - нужен расслабляющий фильм</li>
+            <li><strong>Влюблённым парам</strong> - романтический вечер</li>
+            <li><strong>Всем</strong> - кто хочет, чтобы фильм резонировал с эмоциями</li>
+        </ul>
+
+        <h2>Преимущества</h2>
+        <ul>
+            <li>✅ Персонализированный подбор под эмоции</li>
+            <li>✅ Большая база фильмов с тегами настроений</li>
+            <li>✅ Бесплатно и без регистрации</li>
+            <li>✅ Можно обновлять подборку</li>
+            <li>✅ Краткие описания для быстрого выбора</li>
+        </ul>
+
+        <p style="text-align: center;">
+            <a href="https://vokino.net/instrumenty/generator-nastroeniya/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=mood_generator" class="cta-button">Подобрать фильм по настроению</a>
+        </p>
+
+        <div class="other-tools">
+            <h3>Другие инструменты Vokino</h3>
+            <p>Попробуйте также:</p>
+            <a href="kino-ruletka.html">🎰 Кино-рулетка</a>
+            <a href="koleso-fortuny.html">🎡 Колесо фортуны</a>
+            <a href="kino-goroskop.html">🎭 Кино-гороскоп</a>
+            <a href="kino-batl.html">⚔️ Кино-батл</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2010-2026 <a href="https://vokino.net/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=footer">Vokino.net</a> - Ваш проводник в мире кино</p>
+        <p><a href="index.html">← Вернуться ко всем инструментам</a></p>
+    </div>
+</body>
+</html>
