@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кино-карта - где снимали фильмы | Vokino.net</title>
+    <meta name="description" content="Кино-карта от Vokino.net - интерактивная карта мест съёмок известных фильмов. Узнайте, где снимали ваши любимые фильмы и сериалы.">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #1a1a1a;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0 0 10px;
+            font-size: 2em;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            color: #e50914;
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #e50914;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #c40812;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #e50914;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .footer a {
+            color: #e50914;
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .map-example {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .other-tools {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .other-tools a {
+            color: #e50914;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+        .other-tools a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Все инструменты Vokino</a>
+    
+    <div class="header">
+        <h1>🗺 Кино-карта</h1>
+        <p>Где снимали ваши любимые фильмы</p>
+    </div>
+
+    <div class="content">
+        <h2>О инструменте</h2>
+        <p><strong>Кино-карта</strong> - это бесплатный инструмент от портала <a href="https://vokino.net/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=kino_map">Vokino.net</a>, который показывает реальные места съёмок известных фильмов и сериалов на интерактивной карте.</p>
+        
+        <p>Узнайте, где снимали "Властелин колец", "Игру престолов", "Гарри Поттера" и другие культовые фильмы. Идеально для кинопутешественников!</p>
+
+        <h2>Примеры локаций</h2>
+        <div class="map-example">
+            🏔 <strong>Новая Зеландия:</strong> "Властелин колец", "Хоббит"
+        </div>
+        <div class="map-example">
+            🏰 <strong>Хорватия (Дубровник):</strong> "Игра престолов" - Королевская Гавань
+        </div>
+        <div class="map-example">
+            🏰 <strong>Великобритания:</strong> "Гарри Поттер" - Хогвартс
+        </div>
+        <div class="map-example">
+            🏙 <strong>Нью-Йорк:</strong> "Мстители", "Человек-паук"
+        </div>
+
+        <h2>Как это работает</h2>
+        <ul>
+            <li>Откройте интерактивную карту мира</li>
+            <li>Выберите страну или регион</li>
+            <li>Увидите все фильмы, снятые в этом месте</li>
+            <li>Кликните на фильм - получите точные координаты съёмок</li>
+            <li>Планируйте кинопутешествие по любимым локациям</li>
+        </ul>
+
+        <h2>Возможности</h2>
+        <ul>
+            <li>🌍 <strong>Поиск по странам:</strong> все фильмы, снятые в конкретной стране</li>
+            <li>🎬 <strong>Поиск по фильмам:</strong> где снимали конкретный фильм</li>
+            <li>📍 <strong>Точные координаты:</strong> GPS-координаты мест съёмок</li>
+            <li>📸 <strong>Фотографии:</strong> кадры из фильма и реальные места</li>
+            <li>🗺 <strong>Маршруты:</strong> готовые киномаршруты для путешествий</li>
+        </ul>
+
+        <h2>Для кого подходит</h2>
+        <ul>
+            <li><strong>Путешественникам</strong> - киномаршруты</li>
+            <li><strong>Киноманам</strong> - узнать закулисье съёмок</li>
+            <li><strong>Фотографам</strong> - найти красивые локации</li>
+            <li><strong>Всем</strong> - кто любит кино и путешествия</li>
+        </ul>
+
+        <h2>Преимущества</h2>
+        <ul>
+            <li>✅ Интерактивная карта мира</li>
+            <li>✅ Тысячи локаций съёмок</li>
+            <li>✅ Бесплатно и без регистрации</li>
+            <li>✅ Точные координаты</li>
+            <li>✅ Помогает планировать путешествия</li>
+        </ul>
+
+        <p style="text-align: center;">
+            <a href="https://vokino.net/instrumenty/kino-karta/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=kino_map" class="cta-button">Открыть кино-карту</a>
+        </p>
+
+        <div class="other-tools">
+            <h3>Другие инструменты Vokino</h3>
+            <p>Попробуйте также:</p>
+            <a href="kino-detektiv.html">🔍 Кино-детектив</a>
+            <a href="kino-chellendj.html">🎯 Кино-челлендж</a>
+            <a href="kino-kalendar.html">📅 Кино-календарь</a>
+            <a href="kino-batl.html">⚔️ Кино-батл</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2010-2026 <a href="https://vokino.net/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=footer">Vokino.net</a> - Ваш проводник в мире кино</p>
+        <p><a href="index.html">← Вернуться ко всем инструментам</a></p>
+    </div>
+</body>
+</html>
