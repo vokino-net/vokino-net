@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кино-миксер - смешайте жанры и получите рекомендацию | Vokino.net</title>
+    <meta name="description" content="Кино-миксер от Vokino.net - выберите несколько жанров и получите уникальную подборку фильмов на стыке жанров. Комедия + триллер? Драма + фантастика? Легко!">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #1a1a1a;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0 0 10px;
+            font-size: 2em;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            color: #e50914;
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #e50914;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #c40812;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #e50914;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .footer a {
+            color: #e50914;
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .mix-example {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        .other-tools {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .other-tools a {
+            color: #e50914;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+        .other-tools a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Все инструменты Vokino</a>
+    
+    <div class="header">
+        <h1>🎨 Кино-миксер</h1>
+        <p>Смешайте жанры и получите уникальную подборку</p>
+    </div>
+
+    <div class="content">
+        <h2>О инструменте</h2>
+        <p><strong>Кино-миксер</strong> - это бесплатный инструмент от портала <a href="https://vokino.net/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=kino_mixer">Vokino.net</a>, который позволяет комбинировать разные жанры и получать фильмы на их стыке.</p>
+        
+        <p>Хотите комедию с элементами триллера? Или драму с фантастикой? Выбирайте жанры и получайте уникальные рекомендации!</p>
+
+        <h2>Примеры комбинаций</h2>
+        <div class="mix-example">
+            🎭 Драма + 🔫 Боевик = "Джокер", "Гладиатор"
+        </div>
+        <div class="mix-example">
+            😂 Комедия + 😱 Ужасы = "Зомби по имени Шон", "Хижина в лесу"
+        </div>
+        <div class="mix-example">
+            💕 Романтика + 🚀 Фантастика = "Вечное сияние чистого разума"
+        </div>
+
+        <h2>Как это работает</h2>
+        <ul>
+            <li>Выберите 2-4 жанра из списка</li>
+            <li>Нажмите "Смешать"</li>
+            <li>Получите подборку фильмов, сочетающих выбранные жанры</li>
+            <li>Каждый фильм с описанием и рейтингом</li>
+        </ul>
+
+        <h2>Доступные жанры</h2>
+        <ul>
+            <li>🎭 Драма, 😂 Комедия, 🔫 Боевик, 😱 Ужасы</li>
+            <li>💕 Романтика, 🚀 Фантастика, 🔍 Детектив, 🗡 Фэнтези</li>
+            <li>📚 Исторический, 🎵 Мюзикл, 🌍 Приключения, 🎬 Артхаус</li>
+        </ul>
+
+        <h2>Для кого подходит</h2>
+        <ul>
+            <li><strong>Искушённым зрителям</strong> - кто ищет необычные сочетания</li>
+            <li><strong>Экспериментаторам</strong> - кто любит жанровые миксы</li>
+            <li><strong>Компаниям</strong> - когда у всех разные предпочтения</li>
+            <li><strong>Всем</strong> - кто устал от стандартных жанров</li>
+        </ul>
+
+        <h2>Преимущества</h2>
+        <ul>
+            <li>✅ Уникальные комбинации жанров</li>
+            <li>✅ Большая база фильмов с тегами</li>
+            <li>✅ Бесплатно и без регистрации</li>
+            <li>✅ Можно экспериментировать с сочетаниями</li>
+            <li>✅ Открывает новые фильмы</li>
+        </ul>
+
+        <p style="text-align: center;">
+            <a href="https://vokino.net/instrumenty/kino-mikser/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=kino_mixer" class="cta-button">Смешать жанры</a>
+        </p>
+
+        <div class="other-tools">
+            <h3>Другие инструменты Vokino</h3>
+            <p>Попробуйте также:</p>
+            <a href="generator-nastroeniya.html">🎭 Генератор настроений</a>
+            <a href="kino-batl.html">⚔️ Кино-батл</a>
+            <a href="kino-ruletka.html">🎰 Кино-рулетка</a>
+            <a href="koleso-fortuny.html">🎡 Колесо фортуны</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2010-2026 <a href="https://vokino.net/?utm_source=github_pages&utm_medium=tool_page&utm_campaign=footer">Vokino.net</a> - Ваш проводник в мире кино</p>
+        <p><a href="index.html">← Вернуться ко всем инструментам</a></p>
+    </div>
+</body>
+</html>
